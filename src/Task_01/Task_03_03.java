@@ -1,5 +1,4 @@
 package Task_01;
-import java.util.Scanner;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  3. Найти сумму квадратов первых ста чисел.
 
