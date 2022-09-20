@@ -14,7 +14,7 @@ public class Task_02_01 {
         float Corner2 = InputVar.nextFloat(); //input 2 corner
         InputVar.close();
 
-        if (Corner1+Corner2 >=180 || Corner1<=0 || Corner2<=0) {   // check right data
+        if (Corner1+Corner2 >=180 || Corner1<=0 || Corner2<=0) {   // check right input data
             System.out.print("Данного треугольника не может быть построено");
         }
         else {
