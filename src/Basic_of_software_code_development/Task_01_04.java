@@ -1,4 +1,4 @@
-package Task_01;
+package Basic_of_software_code_development;
 import java.util.Scanner;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  4. Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях). Поменять местами дробную и целую части числа и вывести полученное значение числа.:

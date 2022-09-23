@@ -1,4 +1,4 @@
-package Task_01;
+package Basic_of_software_code_development;
 import java.util.Scanner;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  1. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли

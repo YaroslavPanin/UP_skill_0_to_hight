@@ -1,4 +1,4 @@
-package Task_01;
+package Basic_of_software_code_development;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  7. Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
 //  m и n вводятся с клавиатуры.

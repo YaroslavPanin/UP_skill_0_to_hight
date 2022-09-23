@@ -1,4 +1,4 @@
-package Task_01;
+package Basic_of_software_code_development;
 import java.util.Scanner;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через

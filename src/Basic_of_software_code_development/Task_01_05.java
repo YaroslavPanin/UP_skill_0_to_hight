@@ -1,4 +1,4 @@
-package Task_01;
+package Basic_of_software_code_development;
 import java.util.Scanner;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  5. Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести
