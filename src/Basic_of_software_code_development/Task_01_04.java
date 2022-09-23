@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Task_01_04 {
     public static void main(String[] args) {
 
-        System.out.println("");
 
         Scanner VvodPeremennix = new Scanner(System.in); //присвоение сканеру ввода переменных именни
         System.out.print("Ввод значения числа R (Число R должно быть в формате nnn.ddd):"); //Вывод сообщения о вводе переменной R
