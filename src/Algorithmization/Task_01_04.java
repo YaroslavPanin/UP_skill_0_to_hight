@@ -1,10 +1,9 @@
 package Algorithmization;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
-//  3. Дан массив действительных чисел, размерность которого N. Подсчитать, сколько в нем отрицательных,
-//  положительных и нулевых элементов.
+//  4. Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и наименьший элементы
 
 import java.util.Scanner;
-public class Task_01_03 {
+public class Task_01_04 {
     public static void main(String[] args) {
         System.out.println("Введите количество элементов массива N: ");                                                 //Message count massive
 
@@ -16,29 +15,43 @@ public class Task_01_03 {
         int MinRandomNumber = InputVar.nextInt();                                                                       //input MinRandomNumber
         InputVar.close();
 
-        int SumAboveZero = 0;
-        int SumLessZero = 0;
-        int SumZero = 0;
-
         System.out.println("Сформированный массив: ");
         int[] ArrayX = new int[CountArray];                                                                             // init new Array
         for (int i=0; i<ArrayX.length; i++) {
             ArrayX[i] = (int) (Math.random()*(MaxRandomNumber-MinRandomNumber+1)+MinRandomNumber);                      // random array
-            System.out.printf("%d ", ArrayX[i]);                                                                         //
-            if (ArrayX [i] > 0) {                                                                                       // check Above Zero
-                SumAboveZero++;
+            System.out.printf("%d ",ArrayX[i]);                                                                         //
             }
-            if (ArrayX [i] == 0) {                                                                                      // check = Zero
-                SumZero++;
+        int Min = ArrayX [1];
+        int Max = ArrayX [1];
+
+        for (int arrayX : ArrayX) {
+            if (Min > arrayX) {
+                Min = arrayX;
             }
-            if (ArrayX [i] < 0) {                                                                                       // check less than Zero
-                SumLessZero++;
+            if (Max < arrayX) {
+                Max = arrayX;
             }
         }
         System.out.println();
-        System.out.printf("Сумма элементов больше ноля: %d \n", SumAboveZero);                                          // output data sum Above Zero
-        System.out.printf("Сумма элементов равных ноля: %d \n", SumZero);                                               // output data sum Zero
-        System.out.printf("Сумма элементов меньше ноля: %d \n", SumLessZero);                                           // output data sum less than Zero
+        System.out.printf("Max: %d \n", Max);                                          // output data sum Above Zero
+        System.out.printf("Min: %d \n", Min);                                               // output data sum Zero
 
+        System.out.println("Сформированный массив c заменой: ");
+
+        for (int z = 0; z < ArrayX.length; z++)  // Цикл замены
+        {
+            if (ArrayX[z] == Min) {   // Замена минимального на максимальный
+                ArrayX[z] = Max;
+                continue;
+            }
+            if (ArrayX[z] == Max) {  // Замена максимального на минимальный
+                ArrayX[z] = Min;
+                continue;
+            }
+        }
+
+        for (int arrayX : ArrayX) { //Вывод массива
+            System.out.printf("%d ", arrayX);
+        }
     }
 }

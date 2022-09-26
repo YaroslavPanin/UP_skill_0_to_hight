@@ -1,4 +1,4 @@
-package Algorethmization;
+package Algorithmization;
 //  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
 //  2. Дана последовательность действительных чисел а1 ,а2 ,..., ап. Заменить все ее члены, большие данного Z, этим
 //  числом. Подсчитать количество замен.
@@ -20,7 +20,7 @@ public class Task_01_02 {
         InputVar.close();
         int SumDivK = 0;
         System.out.println("Сформированный массив: ");
-        int ArrayX[] = new int[CountArray];                                                                             // init new Array
+        int[] ArrayX = new int[CountArray];                                                                             // init new Array
         for (int i=0; i<ArrayX.length; i++) {
             ArrayX[i] = (int) (Math.random()*(MaxRandomNumber-MinRandomNumber+1)+MinRandomNumber);                      // input array data random number
             System.out.printf("%d ",ArrayX[i]);                                                                         // output array
