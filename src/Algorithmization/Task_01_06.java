@@ -11,24 +11,24 @@ public class Task_01_06 {
         Scanner InputVar = new Scanner(System.in);                                                                      //Init scanner
         short CountArray = InputVar.nextShort();
         System.out.println("Введите нижнюю границу отбора случайных чисел: ");
-        double MinRandomNumber = InputVar.nextInt();                                                                       //input MinRandomNumber
+        double MinRandomNumber = InputVar.nextDouble();                                                                 //input MinRandomNumber
         System.out.println("Введите верхнюю границу отбора случайных чисел: ");
-        double MaxRandomNumber = InputVar.nextInt();                                                                       //input MaxRandomNumber
+        double MaxRandomNumber = InputVar.nextDouble();                                                                 //input MaxRandomNumber
 
         InputVar.close();
 
         System.out.println("Сформированный массив: ");
         int[] ArrayX = new int[CountArray];                                                                             // init new Array
         for (int i=0; i<ArrayX.length; i++) {
-            ArrayX[i] = (int) (Math.random()*(MaxRandomNumber-MinRandomNumber+1)+MinRandomNumber);                                                          // random array
+            ArrayX[i] = (int) (Math.random()*(MaxRandomNumber-MinRandomNumber+1)+MinRandomNumber);                      // random array
             System.out.printf("%d ",ArrayX[i]);
         }
         System.out.println();
 
         int DivN = 0;
         int SumNumber=0;
-        for (int i=0; i<ArrayX.length; i++) {
-            for (int k=2; k<i; k++){
+        for (int i=1; i<ArrayX.length; i++) {
+            for (int k=2; k<i; k++){                                                                                    // check number == simple
                 if ((i+1)%k == 0) {
                     DivN++;
                 }
