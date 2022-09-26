@@ -17,10 +17,10 @@ public class Task_01_05 {
         System.out.println("Сформированный массив: ");
         int[] ArrayX = new int[CountArray];                                                                             // init new Array
         for (int i=0; i<ArrayX.length; i++) {
-            ArrayX[i] = (int) Math.random()*MaxRandomNumber;                                                          // random array
+            ArrayX[i] = (int) (Math.random()*MaxRandomNumber);                                                          // random array
             System.out.printf("%d ",ArrayX[i]);
         }
-        System.out.println("");
+        System.out.println();
         System.out.println("Сформированный массив где числа, для которых аi > i: ");
         for (int i=0; i<ArrayX.length; i++) {
             if (ArrayX [i] > i) {
