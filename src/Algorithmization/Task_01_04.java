@@ -19,38 +19,37 @@ public class Task_01_04 {
         int[] ArrayX = new int[CountArray];                                                                             // init new Array
         for (int i=0; i<ArrayX.length; i++) {
             ArrayX[i] = (int) (Math.random()*(MaxRandomNumber-MinRandomNumber+1)+MinRandomNumber);                      // random array
-            System.out.printf("%d ",ArrayX[i]);                                                                         //
+            System.out.printf("%d ",ArrayX[i]);
             }
-        int Min = ArrayX [1];
-        int Max = ArrayX [1];
+        int Min = ArrayX [1];                                                                                           //init min number
+        int Max = ArrayX [1];                                                                                           //init max number
 
         for (int arrayX : ArrayX) {
-            if (Min > arrayX) {
+            if (Min > arrayX) {                                                                                         // cycle find Min
                 Min = arrayX;
             }
-            if (Max < arrayX) {
+            if (Max < arrayX) {                                                                                         // cycle find Max
                 Max = arrayX;
             }
         }
         System.out.println();
-        System.out.printf("Max: %d \n", Max);                                          // output data sum Above Zero
-        System.out.printf("Min: %d \n", Min);                                               // output data sum Zero
+        System.out.printf("Max: %d \n", Max);                                                                           // output data Max
+        System.out.printf("Min: %d \n", Min);                                                                           // output data Min
 
         System.out.println("Сформированный массив c заменой: ");
 
-        for (int z = 0; z < ArrayX.length; z++)  // Цикл замены
+        for (int z = 0; z < ArrayX.length; z++)                                                                         // Cycle exchange
         {
-            if (ArrayX[z] == Min) {   // Замена минимального на максимальный
+            if (ArrayX[z] == Min) {                                                                                     // Exchange Min / Max
                 ArrayX[z] = Max;
                 continue;
             }
-            if (ArrayX[z] == Max) {  // Замена максимального на минимальный
+            if (ArrayX[z] == Max) {                                                                                     // Exchange Max / Min
                 ArrayX[z] = Min;
-                continue;
             }
         }
 
-        for (int arrayX : ArrayX) { //Вывод массива
+        for (int arrayX : ArrayX) {                                                                                     // Output result array
             System.out.printf("%d ", arrayX);
         }
     }
