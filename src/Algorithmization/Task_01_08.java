@@ -1,5 +1,5 @@
 package Algorithmization;
-//  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
+//  https://github.com/Java0Tutor/2_Algorithmization/blob/master/Practice%20(tasks).pdf
 //  8. Дана последовательность целых чисел a1 a2 .... an Образовать новую последовательность, выбросив из
 //  исходной те члены, которые равны min(a1 a2 .... an)
 

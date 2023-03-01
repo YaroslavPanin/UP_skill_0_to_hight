@@ -1,5 +1,5 @@
 package Algorithmization;
-//  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
+//  https://github.com/Java0Tutor/2_Algorithmization/blob/master/Practice%20(tasks).pdf
 //  7. Даны действительные числа a1 a2 .... an Найти
 //   max  (a1+a2n , a2+a2n-1, an+an+1)
 

@@ -1,5 +1,5 @@
 package Algorithmization;
-//  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
+//  https://github.com/Java0Tutor/2_Algorithmization/blob/master/Practice%20(tasks).pdf
 //  2. Дана последовательность действительных чисел а1 ,а2 ,..., ап. Заменить все ее члены, большие данного Z, этим
 //  числом. Подсчитать количество замен.
 

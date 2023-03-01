@@ -1,5 +1,5 @@
 package Algorithmization;
-//  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
+//  https://github.com/Java0Tutor/2_Algorithmization/blob/master/Practice%20(tasks).pdf
 //  5. Даны целые числа а1 ,а2 ,..., аn . Вывести на печать только те числа, для которых аi > i
 
 import java.util.Scanner;

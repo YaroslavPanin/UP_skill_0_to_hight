@@ -1,5 +1,5 @@
 package Algorithmization;
-//  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
+//  https://github.com/Java0Tutor/2_Algorithmization/blob/master/Practice%20(tasks).pdf
 //  10. Дан целочисленный массив с количеством элементов п. Сжать массив, выбросив из него каждый второй
 //  элемент (освободившиеся элементы заполнить нулями). Примечание. Дополнительный массив не использовать.
 

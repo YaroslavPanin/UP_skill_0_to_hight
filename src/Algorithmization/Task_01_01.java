@@ -1,5 +1,5 @@
 package Algorithmization;
-//  https://github.com/Java0Tutor/1_Basics_of_software_code_development/blob/master/Practice%20(tasks).pdf
+//  https://github.com/Java0Tutor/2_Algorithmization/blob/master/Practice%20(tasks).pdf
 //  1. В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
 
 import java.util.Scanner;
