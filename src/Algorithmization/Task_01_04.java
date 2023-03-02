@@ -21,8 +21,8 @@ public class Task_01_04 {
             ArrayX[i] = (int) (Math.random()*(MaxRandomNumber-MinRandomNumber+1)+MinRandomNumber);                      // random array
             System.out.printf("%d ",ArrayX[i]);
             }
-        int Min = ArrayX [1];                                                                                           //init min number
-        int Max = ArrayX [1];                                                                                           //init max number
+        int Min = ArrayX [0];                                                                                           //init min number
+        int Max = ArrayX [0];                                                                                           //init max number
 
         for (int arrayX : ArrayX) {
             if (Min > arrayX) {                                                                                         // cycle find Min
